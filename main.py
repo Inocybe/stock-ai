@@ -1,7 +1,6 @@
 
-from ollama import ChatResponse, Client
+from openai import OpenAI
 from mlx_lm import load, generate
-from sec_edgar_downloader import Downloader
 import logging
 import yfinance as yf
 
@@ -12,11 +11,6 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
-
-# ---- DOWNLOADING STUFF ----
-dl = Downloader("Lev Mitchell", "levmitchell@icloud.com")
-
-
 
 
 def get_stock_price(ticker) -> str:
