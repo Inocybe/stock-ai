@@ -1,0 +1,28 @@
+2026-06-21 20:48:43 | INFO | Starting server on 0.0.0.0:8000
+2026-06-21 20:48:43 | INFO | Multi-handler server configuration complete.
+2026-06-21 20:48:43 | INFO | Starting Uvicorn server...
+2026-06-21 20:48:43 | INFO | Model registry initialized
+2026-06-21 20:48:43 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-21 20:48:43 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=24972)
+2026-06-21 20:48:44 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-21 20:51:36 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-21 20:52:12 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-21 20:52:12 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-21 20:52:12 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-21 20:52:12 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-21 20:52:24 | INFO | Shutting down multi-handler application
+2026-06-21 20:52:25 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-21 20:52:25 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-21 20:52:25 | INFO | All models unregistered and cleaned up
+2026-06-22 17:24:26 | INFO | Starting server on 0.0.0.0:8000
+2026-06-22 17:24:26 | INFO | Multi-handler server configuration complete.
+2026-06-22 17:24:26 | INFO | Starting Uvicorn server...
+2026-06-22 17:24:26 | INFO | Model registry initialized
+2026-06-22 17:24:26 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-22 17:24:26 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=40891)
+2026-06-22 17:24:26 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-22 17:24:26 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-22 17:24:33 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-22 17:24:33 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-22 17:24:33 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-22 17:24:33 | INFO | Multi-handler initialization complete. 1 model(s) spawned.

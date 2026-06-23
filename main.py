@@ -1,5 +1,6 @@
 
 from ollama import ChatResponse, Client
+from mlx_lm import load, generate
 from sec_edgar_downloader import Downloader
 import logging
 import yfinance as yf
@@ -12,7 +13,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ---- DOWNLOADING SHIT ----
+# ---- DOWNLOADING STUFF ----
 dl = Downloader("Lev Mitchell", "levmitchell@icloud.com")
 
 
