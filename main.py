@@ -13,7 +13,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def get_stock_price(ticker) -> str:
+def get_stock_price(ticker: str) -> str:
+    """
+    Fetches the current stock price for the given ticker symbol using yfinance.
+    """
     try:
         return str(yf.Ticker(ticker).fast_info['last_price'])
     except Exception as e:
@@ -21,14 +24,20 @@ def get_stock_price(ticker) -> str:
         return "Error fetching stock price"
 
 
-def get_stock_info(ticker) -> str:
+def get_stock_info(ticker: str) -> str:
+    """
+    Fetches the stock info for the given ticker symbol using yfinance.
+    """
     try:
         return str(yf.Ticker(ticker).info)
     except Exception as e:
         logger.error(f"Error fetching stock info for {ticker}: {e}")
         return "Error fetching stock info"
 
-def get_news(ticker) -> str:
+def get_news(ticker: str) -> str:
+    """
+    Fetches the news for the given ticker symbol using yfinance.
+    """
     try:
         return str(yf.Ticker(ticker).news)
     except Exception as e:
@@ -36,7 +45,10 @@ def get_news(ticker) -> str:
         return "Error fetching news"
 
 
-def get_stock_history(ticker, period='1d', interval='1m') -> str:
+def get_stock_history(ticker: str, period='1d', interval='1m') -> str:
+    """
+    Fetches the stock history for the given ticker symbol using yfinance.
+    """
     try:
         data = yf.Ticker(ticker).history(period=period, interval=interval)
         return data.to_string()
@@ -45,21 +57,30 @@ def get_stock_history(ticker, period='1d', interval='1m') -> str:
         return "Error fetching stock history"
 
 
-def get_financials(ticker) -> str:
+def get_financials(ticker: str) -> str:
+    """
+    Fetches the financials for the given ticker symbol using yfinance.
+    """
     try:
         return str(yf.Ticker(ticker).financials)
     except Exception as e:
         logger.error(f"Error fetching financials for {ticker}: {e}")
         return "Error fetching financials"
 
-def get_balance_sheet(ticker) -> str:
+def get_balance_sheet(ticker: str) -> str:
+    """
+    Fetches the balance sheet for the given ticker symbol using yfinance.
+    """
     try:
         return str(yf.Ticker(ticker).balance_sheet)
     except Exception as e:
         logger.error(f"Error fetching balance sheet for {ticker}: {e}")
         return "Error fetching balance sheet"
 
-def get_cashflow(ticker) -> str:
+def get_cashflow(ticker: str) -> str:
+    """
+    Fetches the cash flow for the given ticker symbol using yfinance.
+    """
     try:
         return str(yf.Ticker(ticker).cashflow)
     except Exception as e:
@@ -67,7 +88,7 @@ def get_cashflow(ticker) -> str:
         return "Error fetching cashflow"
 
 '''
-def get_sec_filings(ticker, filing_type='10-K', count=5) -> str:
+def get_sec_filings(ticker: str, filing_type='10-K', count=5) -> str:
     try:
         return dl.get(ticker, filing_type, count)
     except Exception as e:
@@ -81,10 +102,9 @@ options = {
     'top_p': 0.9
 }
 
-tools = [
+tools: list[callable] = [
     get_stock_price,
     get_stock_history,
-    #get_sec_filings,
     get_news,
     get_stock_info,
     get_financials,
@@ -92,16 +112,36 @@ tools = [
     get_cashflow
 ]
 
-available_functions = {
+available_functions: dict[str, callable] = {
     'get_stock_price': get_stock_price,
     'get_stock_history': get_stock_history,
-    # 'get_sec_filings': get_sec_filings,
     'get_news': get_news,
     'get_stock_info': get_stock_info,
     'get_financials': get_financials,
     'get_balance_sheet': get_balance_sheet,
     'get_cashflow': get_cashflow
 }
+
+
+# use standard OpenAI format
+def define_tool(name: str, description: str, parameters: dict, required: list) -> dict:
+    return {
+        "type": "function",
+        "function": {
+            "name": name,
+            "description": description,
+            "parameters": parameters,
+            "required": required
+            }
+    }
+
+def define_all_tools() -> list:
+    tls = []
+    for (name, func) in available_functions.items():
+        tls.append(define_tool(name, func.__doc__, func.__annotations__, list(func.__annotations__.keys())))
+    return tls
+
+
 
 def main():
     client = Client()
