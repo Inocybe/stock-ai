@@ -30,3 +30,293 @@
 2026-06-22 17:31:58 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
 2026-06-22 17:31:58 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
 2026-06-22 17:31:58 | INFO | All models unregistered and cleaned up
+2026-06-26 11:55:18 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 11:55:18 | INFO | Multi-handler server configuration complete.
+2026-06-26 11:55:18 | INFO | Starting Uvicorn server...
+2026-06-26 11:55:18 | INFO | Model registry initialized
+2026-06-26 11:55:18 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 11:55:18 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=18122)
+2026-06-26 11:55:19 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 11:55:19 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 11:55:26 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 11:55:26 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 11:55:26 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 11:55:26 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 11:55:27 | INFO | Shutting down multi-handler application
+2026-06-26 11:55:28 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 11:55:28 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 11:55:28 | INFO | All models unregistered and cleaned up
+2026-06-26 11:59:17 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 11:59:17 | INFO | Multi-handler server configuration complete.
+2026-06-26 11:59:17 | INFO | Starting Uvicorn server...
+2026-06-26 11:59:17 | INFO | Model registry initialized
+2026-06-26 11:59:17 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 11:59:17 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=18890)
+2026-06-26 11:59:18 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 11:59:18 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 11:59:24 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 11:59:24 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 11:59:24 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 11:59:24 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 11:59:45 | INFO | Shutting down multi-handler application
+2026-06-26 11:59:46 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 11:59:46 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 11:59:46 | INFO | All models unregistered and cleaned up
+2026-06-26 12:00:37 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:00:37 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:00:37 | INFO | Starting Uvicorn server...
+2026-06-26 12:00:37 | INFO | Model registry initialized
+2026-06-26 12:00:37 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:00:37 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=19092)
+2026-06-26 12:00:38 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:00:38 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 12:00:43 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 12:00:43 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 12:00:43 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 12:00:43 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 12:00:54 | INFO | Shutting down multi-handler application
+2026-06-26 12:00:55 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:00:55 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 12:00:55 | INFO | All models unregistered and cleaned up
+2026-06-26 12:09:19 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:09:19 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:09:19 | INFO | Starting Uvicorn server...
+2026-06-26 12:09:19 | INFO | Model registry initialized
+2026-06-26 12:09:19 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:09:19 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=19764)
+2026-06-26 12:09:20 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:09:20 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 12:09:25 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 12:09:25 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 12:09:25 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 12:09:25 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 12:09:33 | INFO | Shutting down multi-handler application
+2026-06-26 12:09:34 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:09:34 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 12:09:34 | INFO | All models unregistered and cleaned up
+2026-06-26 12:13:18 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:13:18 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:13:18 | INFO | Starting Uvicorn server...
+2026-06-26 12:13:18 | INFO | Model registry initialized
+2026-06-26 12:13:18 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:13:18 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=20130)
+2026-06-26 12:13:19 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:13:19 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 12:13:25 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 12:13:25 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 12:13:25 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 12:13:25 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 12:23:02 | INFO | Shutting down multi-handler application
+2026-06-26 12:23:03 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:23:03 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 12:23:03 | INFO | All models unregistered and cleaned up
+2026-06-26 12:23:08 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:23:08 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:23:08 | INFO | Starting Uvicorn server...
+2026-06-26 12:23:08 | INFO | Model registry initialized
+2026-06-26 12:23:08 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:23:08 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=21354)
+2026-06-26 12:23:08 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:23:08 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 12:23:14 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 12:23:14 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 12:23:14 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 12:23:14 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 12:23:26 | INFO | Shutting down multi-handler application
+2026-06-26 12:23:27 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:23:27 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 12:23:27 | INFO | All models unregistered and cleaned up
+2026-06-26 12:25:39 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:25:39 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:25:39 | INFO | Starting Uvicorn server...
+2026-06-26 12:25:39 | INFO | Model registry initialized
+2026-06-26 12:25:39 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:25:39 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=21657)
+2026-06-26 12:25:39 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:25:40 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 12:25:45 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 12:25:45 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 12:25:45 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 12:25:45 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 12:26:08 | INFO | Shutting down multi-handler application
+2026-06-26 12:26:09 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:26:09 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 12:26:09 | INFO | All models unregistered and cleaned up
+2026-06-26 12:28:22 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:28:22 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:28:22 | INFO | Starting Uvicorn server...
+2026-06-26 12:28:22 | INFO | Model registry initialized
+2026-06-26 12:28:22 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:28:22 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=21959)
+2026-06-26 12:28:23 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:28:23 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 12:28:28 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 12:28:28 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 12:28:28 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 12:28:28 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 12:28:39 | INFO | Shutting down multi-handler application
+2026-06-26 12:28:40 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:28:40 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 12:28:40 | INFO | All models unregistered and cleaned up
+2026-06-26 12:35:28 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:35:28 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:35:28 | INFO | Starting Uvicorn server...
+2026-06-26 12:35:28 | INFO | Model registry initialized
+2026-06-26 12:35:28 | INFO | Spawning handler process for model 'mlx-community/Qwen3.6-35B-A3B-4bit' (type=lm, path=mlx-community/Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:35:28 | INFO | Spawned handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' (pid=22653)
+2026-06-26 12:35:28 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetching 'mlx-community/Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:35:28 | INFO | 'mlx-community/Qwen3.6-35B-A3B-4bit': Fetched 'mlx-community/Qwen3.6-35B-A3B-4bit'
+2026-06-26 12:35:34 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' is ready
+2026-06-26 12:35:34 | INFO | Registered model: mlx-community/Qwen3.6-35B-A3B-4bit (type=lm, context_length=16384)
+2026-06-26 12:35:34 | INFO | Model 'mlx-community/Qwen3.6-35B-A3B-4bit' spawned and registered successfully
+2026-06-26 12:35:34 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 12:35:47 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 12:35:47 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 12:35:47 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 12:35:47 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 12:35:47 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 12:35:47 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 12:35:47 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 12:35:47 | INFO | Shutting down multi-handler application
+2026-06-26 12:35:48 | INFO | Handler process for 'mlx-community/Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:35:48 | INFO | Cleaned up handler for model: mlx-community/Qwen3.6-35B-A3B-4bit
+2026-06-26 12:35:48 | INFO | All models unregistered and cleaned up
+2026-06-26 12:38:41 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:38:41 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:38:41 | INFO | Starting Uvicorn server...
+2026-06-26 12:38:41 | INFO | Model registry initialized
+2026-06-26 12:38:41 | INFO | Spawning handler process for model 'models--mlx-community--Qwen3.6-35B-A3B-4bit' (type=lm, path=models--mlx-community--Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:38:41 | INFO | Spawned handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' (pid=23090)
+2026-06-26 12:38:41 | INFO | 'models--mlx-community--Qwen3.6-35B-A3B-4bit': Fetching 'models--mlx-community--Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:38:53 | WARNING | Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' did not acknowledge shutdown within 10 s; terminating
+2026-06-26 12:38:53 | INFO | Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:38:53 | ERROR | Failed to initialize multi-handler setup: Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' failed to initialize: Error loading model: Cannot have -- or .. in repo_id: 'models--mlx-community--Qwen3.6-35B-A3B-4bit'.
+2026-06-26 12:38:53 | INFO | All models unregistered and cleaned up
+2026-06-26 12:41:30 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 12:41:30 | INFO | Multi-handler server configuration complete.
+2026-06-26 12:41:30 | INFO | Starting Uvicorn server...
+2026-06-26 12:41:30 | INFO | Model registry initialized
+2026-06-26 12:41:30 | INFO | Spawning handler process for model 'models--mlx-community--Qwen3.6-35B-A3B-4bit' (type=lm, path=models--mlx-community--Qwen3.6-35B-A3B-4bit)
+2026-06-26 12:41:30 | INFO | Spawned handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' (pid=23403)
+2026-06-26 12:41:31 | INFO | 'models--mlx-community--Qwen3.6-35B-A3B-4bit': Fetching 'models--mlx-community--Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 12:41:43 | WARNING | Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' did not acknowledge shutdown within 10 s; terminating
+2026-06-26 12:41:43 | INFO | Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 12:41:43 | ERROR | Failed to initialize multi-handler setup: Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' failed to initialize: Error loading model: Cannot have -- or .. in repo_id: 'models--mlx-community--Qwen3.6-35B-A3B-4bit'.
+2026-06-26 12:41:43 | INFO | All models unregistered and cleaned up
+2026-06-26 13:24:16 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 13:24:16 | INFO | Multi-handler server configuration complete.
+2026-06-26 13:24:16 | INFO | Starting Uvicorn server...
+2026-06-26 13:24:16 | INFO | Model registry initialized
+2026-06-26 13:24:16 | INFO | Spawning handler process for model 'models--mlx-community--Qwen3.6-35B-A3B-4bit' (type=lm, path=models--mlx-community--Qwen3.6-35B-A3B-4bit)
+2026-06-26 13:24:16 | INFO | Spawned handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' (pid=26100)
+2026-06-26 13:24:16 | INFO | 'models--mlx-community--Qwen3.6-35B-A3B-4bit': Fetching 'models--mlx-community--Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 13:24:28 | WARNING | Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' did not acknowledge shutdown within 10 s; terminating
+2026-06-26 13:24:28 | INFO | Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 13:24:28 | ERROR | Failed to initialize multi-handler setup: Handler process for 'models--mlx-community--Qwen3.6-35B-A3B-4bit' failed to initialize: Error loading model: Cannot have -- or .. in repo_id: 'models--mlx-community--Qwen3.6-35B-A3B-4bit'.
+2026-06-26 13:24:28 | INFO | All models unregistered and cleaned up
+2026-06-26 13:43:19 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 13:43:19 | INFO | Multi-handler server configuration complete.
+2026-06-26 13:43:19 | INFO | Starting Uvicorn server...
+2026-06-26 13:43:19 | INFO | Model registry initialized
+2026-06-26 13:43:19 | INFO | Spawning handler process for model '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit' (type=lm, path=~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit)
+2026-06-26 13:43:19 | INFO | Spawned handler process for '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit' (pid=28656)
+2026-06-26 13:43:20 | INFO | '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit': Fetching '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 13:43:32 | WARNING | Handler process for '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit' did not acknowledge shutdown within 10 s; terminating
+2026-06-26 13:43:32 | INFO | Handler process for '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 13:43:32 | ERROR | Failed to initialize multi-handler setup: Handler process for '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit' failed to initialize: Error loading model: Repo id must use alphanumeric chars, '-', '_' or '.'. The name cannot start or end with '-' or '.' and the maximum length is 96: '~--.cache--huggingface--hub--models--mlx-community--Qwen3.6-35B-A3B-4bit'.
+2026-06-26 13:43:32 | INFO | All models unregistered and cleaned up
+2026-06-26 13:45:54 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 13:45:54 | INFO | Multi-handler server configuration complete.
+2026-06-26 13:45:54 | INFO | Starting Uvicorn server...
+2026-06-26 13:45:54 | INFO | Model registry initialized
+2026-06-26 13:45:54 | INFO | Spawning handler process for model '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit' (type=lm, path=~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit)
+2026-06-26 13:45:54 | INFO | Spawned handler process for '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit' (pid=29045)
+2026-06-26 13:45:54 | INFO | '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit': Fetching '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit' from HuggingFace...
+2026-06-26 13:46:06 | WARNING | Handler process for '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit' did not acknowledge shutdown within 10 s; terminating
+2026-06-26 13:46:06 | INFO | Handler process for '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit' shut down successfully
+2026-06-26 13:46:06 | ERROR | Failed to initialize multi-handler setup: Handler process for '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit' failed to initialize: Error loading model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '~/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit'. Use `repo_type` argument if needed.
+2026-06-26 13:46:06 | INFO | All models unregistered and cleaned up
+2026-06-26 13:51:12 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 13:51:12 | INFO | Multi-handler server configuration complete.
+2026-06-26 13:51:12 | INFO | Starting Uvicorn server...
+2026-06-26 13:51:12 | INFO | Model registry initialized
+2026-06-26 13:51:12 | INFO | Spawning handler process for model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (type=lm, path=/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46)
+2026-06-26 13:51:12 | INFO | Spawned handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (pid=29786)
+2026-06-26 13:51:18 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' is ready
+2026-06-26 13:51:18 | INFO | Registered model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46 (type=lm, context_length=16384)
+2026-06-26 13:51:18 | INFO | Model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' spawned and registered successfully
+2026-06-26 13:51:18 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 13:51:34 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:51:34 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:51:34 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:51:34 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:51:34 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:51:34 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:51:34 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:51:34 | INFO | Shutting down multi-handler application
+2026-06-26 13:51:35 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' shut down successfully
+2026-06-26 13:51:35 | INFO | Cleaned up handler for model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46
+2026-06-26 13:51:35 | INFO | All models unregistered and cleaned up
+2026-06-26 13:52:17 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 13:52:17 | INFO | Multi-handler server configuration complete.
+2026-06-26 13:52:17 | INFO | Starting Uvicorn server...
+2026-06-26 13:52:17 | INFO | Model registry initialized
+2026-06-26 13:52:17 | INFO | Spawning handler process for model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (type=lm, path=/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46)
+2026-06-26 13:52:17 | INFO | Spawned handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (pid=29973)
+2026-06-26 13:52:23 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' is ready
+2026-06-26 13:52:23 | INFO | Registered model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46 (type=lm, context_length=16384)
+2026-06-26 13:52:23 | INFO | Model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' spawned and registered successfully
+2026-06-26 13:52:23 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 13:52:43 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:52:43 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:52:43 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:52:43 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:52:43 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:52:43 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:52:43 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:52:43 | INFO | Shutting down multi-handler application
+2026-06-26 13:52:44 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' shut down successfully
+2026-06-26 13:52:44 | INFO | Cleaned up handler for model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46
+2026-06-26 13:52:44 | INFO | All models unregistered and cleaned up
+2026-06-26 13:55:29 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 13:55:29 | INFO | Multi-handler server configuration complete.
+2026-06-26 13:55:29 | INFO | Starting Uvicorn server...
+2026-06-26 13:55:29 | INFO | Model registry initialized
+2026-06-26 13:55:29 | INFO | Spawning handler process for model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (type=lm, path=/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46)
+2026-06-26 13:55:29 | INFO | Spawned handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (pid=30481)
+2026-06-26 13:55:35 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' is ready
+2026-06-26 13:55:35 | INFO | Registered model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46 (type=lm, context_length=16384)
+2026-06-26 13:55:35 | INFO | Model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' spawned and registered successfully
+2026-06-26 13:55:35 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 13:55:46 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:55:46 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:55:46 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:55:46 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:55:46 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:55:46 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:55:46 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:55:46 | INFO | Shutting down multi-handler application
+2026-06-26 13:55:47 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' shut down successfully
+2026-06-26 13:55:47 | INFO | Cleaned up handler for model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46
+2026-06-26 13:55:47 | INFO | All models unregistered and cleaned up
+2026-06-26 13:57:37 | INFO | Starting server on 0.0.0.0:8000
+2026-06-26 13:57:37 | INFO | Multi-handler server configuration complete.
+2026-06-26 13:57:37 | INFO | Starting Uvicorn server...
+2026-06-26 13:57:37 | INFO | Model registry initialized
+2026-06-26 13:57:37 | INFO | Spawning handler process for model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (type=lm, path=/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46)
+2026-06-26 13:57:37 | INFO | Spawned handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' (pid=30858)
+2026-06-26 13:57:43 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' is ready
+2026-06-26 13:57:43 | INFO | Registered model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46 (type=lm, context_length=16384)
+2026-06-26 13:57:43 | INFO | Model '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' spawned and registered successfully
+2026-06-26 13:57:43 | INFO | Multi-handler initialization complete. 1 model(s) spawned.
+2026-06-26 13:57:55 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:57:55 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:57:55 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:57:55 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:57:55 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:57:55 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:57:55 | WARNING | The following fields were present in the request but ignored: {'required'}
+2026-06-26 13:57:55 | INFO | Shutting down multi-handler application
+2026-06-26 13:57:56 | INFO | Handler process for '/Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46' shut down successfully
+2026-06-26 13:57:56 | INFO | Cleaned up handler for model: /Users/levmitchell/.cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46
+2026-06-26 13:57:56 | INFO | All models unregistered and cleaned up

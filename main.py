@@ -3,7 +3,9 @@ from mlx_lm import load, generate
 
 import logging
 import server
-from tools import define_all_tools
+from tools import define_all_tools, tool_list
+
+
 
 # ---- SETUP LOGGING ----
 logging.basicConfig(
@@ -13,16 +15,22 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+# --- Start the server ---
+server.start()
+
+
 # --- SETUP OPENAI CLIENT ----
 # everything done locally
 client = OpenAI(
-    base_url="https://localhost:8000/v1",
+    base_url="http://localhost:8000/v1",
     api_key="not-needed"
 )
 
 
+
+
 def chat():
-    model = "models--mlx-community--Qwen3.6-35B-A3B-4bit"
+    model = "mlx-community/Qwen3.6-35B-A3B-4bit"
     tls = define_all_tools()
     
     query = input("Enter your question: ")
@@ -34,28 +42,27 @@ def chat():
             model=model,
             messages=messages,
             tools=tls,
-            think=True,
             stream=False,
         )
 
         msg = response.choices[0].message
         messages.append(msg)
 
-        
+        if not msg.tool_calls:
+            logger.info(f"Final RESPONSE")
+            logger.info(f"------------------------------")
+            logger.info(f"Assistant response: {msg.content}")
+            break
+
         for call in msg.tool_calls:
-            if function_to_call := tools.get(call.function.name):
+            if function_to_call := tool_list.get(call.function.name):
                 logger.info(f"Calling tool: {call.function.name} with arguments: {call.function.arguments}")
                 result = function_to_call(**call.function.arguments)
                 logger.info(f"Tool result: {result}")
-                messages.append({"role": "tool", "content": str(result), "tool_name": call.function.name})
+                messages.append({"role": "tool", "content": str(result), "name": call.function.name})
             else:
                 logger.warning(f"No available function for tool call: {call.function.name}")
         
-        if len(msg.tool_calls) == 0:
-            print("Final response from model:")
-            print(msg.content)
-            break
-
 
 
 

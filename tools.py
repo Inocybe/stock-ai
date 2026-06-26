@@ -1,7 +1,6 @@
-
+import inspect
 import logging
 import yfinance as yf
-
 
 
 logger = logging.getLogger(__name__)
@@ -95,37 +94,73 @@ def get_sec_filings(ticker: str, filing_type='10-K', count=5) -> str:
 
 
 
+
+tool_list: dict[str, callable] = {
+    "get_stock_price": get_stock_price,
+    "get_stock_history": get_stock_history,
+    "get_news": get_news,
+    "get_stock_info": get_stock_info,
+    "get_financials": get_financials,
+    "get_balance_sheet": get_balance_sheet,
+    "get_cashflow": get_cashflow
+}
+
+
+
+def py_to_json(py_type: type) -> dict:
+    """
+    Converts a Python type to a JSON schema type.
+    """
+    type_map = {
+        str:   {"type": "string"},
+        int:   {"type": "integer"},
+        float: {"type": "number"},
+        bool:  {"type": "boolean"},
+        list:  {"type": "array", "items": {}},
+        dict:  {"type": "object"},
+    }
+    if py_type not in type_map:
+        raise ValueError(f"Unsupported type: {py_type}")
+    return type_map[py_type]
+
+
 # use standard OpenAI format
-def define_tool(name: str, description: str, parameters: dict, required: list) -> dict:
+def define_tool(func: callable) -> dict:
+    sig = inspect.signature(func)
+    annotations = {k: v for k, v in func.__annotations__.items() if k != 'return'}
+
+
+    required = []
+    for name, param in sig.parameters.items():
+        if name not in annotations:
+            continue
+        # no default = required
+        if param.default is inspect.Parameter.empty:
+            required.append(name)
+
+
     return {
         "type": "function",
         "function": {
-            "name": name,
-            "description": description,
-            "parameters": parameters,
+            "name": func.__name__,
+            "description": func.__doc__ or "",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    name: py_to_json(typ) for name, typ in annotations.items()
+                }
+            },
             "required": required
-            }
+        }
     }
 
 
 
 def define_all_tools() -> list:
     tls = []
-    for (name, func) in tools.items():
-        tls.append(define_tool(name, func.__doc__, func.__annotations__, list(func.__annotations__.keys())))
+    for func in tool_list.values():
+        tls.append(define_tool(func))
     return tls
 
 
-
-
-
-tool_list: list[callable] = [
-    get_stock_price,
-    get_stock_history,
-    get_news,
-    get_stock_info,
-    get_financials,
-    get_balance_sheet,
-    get_cashflow
-]
 
